@@ -1,0 +1,53 @@
+.LanceDe h1 {
+
+color: #ba181b ; 
+font-family :Verdana, Geneva, Tahoma, sans-serif ; 
+
+}
+
+.LanceDe button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black; 
+  background-color: #ba181b;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 12px #b1a7a6;  
+    }
+
+.LanceDe container {
+
+  display: flex ;
+  flex-flow: row;
+  justify-content: center;
+  align-content: center;
+ 
+ }
+ 
+ .LanceDe p {
+  
+  font-size: larger;
+  
+ }
+
+ .LanceDe table , td , th , tr {
+
+  border: 1px solid #b1a7a6;
+  
+ }
+ .LanceDe table {
+  position :absolute ; 
+   text-align: center;
+  width: 25%;
+ }
+
+ td {background-color: #ba181b;
+ color: white;}
+ th {
+   background-color: #b1a7a6;
+ }
