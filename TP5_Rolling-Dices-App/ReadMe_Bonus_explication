@@ -1,0 +1,16 @@
+BENHACINE serine amina /ALIHADEF Imene Maya / GR 01 
+***************************************************
+
+
+une fonction "Score() " 
+qui calcule le nombre de tentatives réussites et échouées ainsi que le score (incrémentation ou décrémentation ) 
+///////////////////////////////
+une fonction "Lancer ()" 
+dans la fonction lancer on ajoute deux conditions 
+    **** l'arret du boutton est controlé par un state bollean "ARRET " ***
+  Si le nombre de click est < 10 -> lancement de dés et incrémentation +1  du nombre de click . et arret <- false 
+  si le nombre de click est > 10 -> arret <- true boutton bloqué (disabled) 
+////////////////////////////////
+une fonction " Reset() "
+qui initialise le score les tentatives et le nombre de clicks à 0 
+un bouttn "reset" appel cette fonction .
