@@ -1,0 +1,47 @@
+.De img {
+    margin-left: 50px;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+  
+}
+ 
+
+
+  
+.animation {
+    animation-name: rolling;
+    animation-duration: 1s;
+  }
+  
+  
+  @keyframes rolling {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+  
+    15% {
+      transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    }
+  
+    50% {
+      transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    }
+  
+    60% {
+      transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    }
+  
+    30% {
+      transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    }
+  
+    15% {
+      transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
